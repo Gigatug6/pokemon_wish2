@@ -29,6 +29,4 @@ listTypes:dict[int, SetType] = {
   EnumTypes.Acier: SetType('Acier', [1/2, 2, 1/2, 1, 1, 1/2, 2, 1/2, 1/2, 1/2, 1/2, 0, 1/2, 1/2, 2, 1, 1, 1/2], [1/2, 1, 1, 1/2, 1/2, 2, 1/2, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1]),
   EnumTypes.Combat: SetType('Combat', [1, 1, 1, 1, 1, 2, 1, 1, 1/2, 1, 1, 1, 2, 1/2, 1, 1, 1/2, 2], [2, 1, 1, 1, 1, 1/2, 1, 2, 1/2, 2, 1, 1/2, 1/2, 2, 1, 0, 2, 1/2]),
   EnumTypes.Dragon: SetType('Dragon', [1, 1, 2, 1/2, 1/2, 2, 1/2, 2, 1, 1, 1/2, 1, 1, 1, 1, 1, 1, 1], [1/2, 1, 2, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
-}    
-
-#git remote add origin https://github.com/Gigatug6/pokemon_wish
+}

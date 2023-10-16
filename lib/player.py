@@ -1,10 +1,14 @@
 from pokemons import pokemons
 
-class SelfPlayer:
-  def __init__(self, name=""):
+class Player:
+  def __init__(self, name:str, totalPokemons:int):
     self.name = name
     self.pokemons = [pokemons[1], pokemons[7]]
+    self.totalPokemons = min(6, totalPokemons)
+    self.pokemons:list[pokemons] = []
 
+
+  """
   def setName(self):
     self.name = input("Name : ")
 
@@ -15,4 +19,4 @@ class SelfPlayer:
       print("Attaques :")
       for i in pokemon.attacks:
         print('- ', i.name)   
-
+  """

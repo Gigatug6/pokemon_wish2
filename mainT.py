@@ -1,4 +1,4 @@
-from player import SelfPlayer
+"""from player import SelfPlayer
 from trainers import trainers
 
 player = SelfPlayer("gang")
@@ -13,4 +13,4 @@ for pokemon in trainer.pokemons:
       print("State :", ['attaque :', pokemon.attack, 'defense :', pokemon.defense])
       print("Attaques :")
       for i in pokemon.attacks:
-        print('- ', i.name)   
+        print('- ', i.name)   """
