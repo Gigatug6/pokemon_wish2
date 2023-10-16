@@ -1,4 +1,4 @@
-from pokemons import pokemons
+from lib.pokemons import pokemons
 
 class Player:
   def __init__(self, name:str, totalPokemons:int):

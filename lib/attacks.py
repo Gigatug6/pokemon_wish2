@@ -1,4 +1,4 @@
-from typePokemons import EnumTypes
+from lib.typePokemons import EnumTypes
 
 class CategoryAttack:
   Physical = 0,

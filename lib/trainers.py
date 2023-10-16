@@ -1,5 +1,5 @@
 import random
-from pokemons import pokemons, SetPokemon
+from lib.pokemons import pokemons, SetPokemon
 
 class SetTrainer:
   def __init__(self, name, totalPokemons):

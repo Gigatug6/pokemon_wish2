@@ -24,6 +24,7 @@ class Game:
     pg.time.set_timer(self.global_event, 40)
     self.new_game()
     self.menu = EnumMenu.Home
+    self.timer = 1
 
     #self.x = 10
 
@@ -62,6 +63,9 @@ class Game:
       self.check_events()
       self.update()
       self.draw()
+      self.timer += 1
+
+      self.displayHome.check_events()
 
 
 
